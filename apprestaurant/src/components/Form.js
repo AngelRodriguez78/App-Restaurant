@@ -9,7 +9,7 @@ const Form = () => {
         createItem({nombre})
     }
     return (
-        <div>
+        <div className='container'>
             <form>
                 <label>Nombre</label>
                 <input type="text" onChange={(event)=>setNombre(event.target.value)}></input>

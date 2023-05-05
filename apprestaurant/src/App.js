@@ -3,14 +3,16 @@ import Header from './components/Header';
 import './App.css';
 import Menu from './components/Menu';
 import Form from './components/Form';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <>
     <h1>Restaurant</h1>
     <Header Titulo= "Restaurante La Chikita"/>
-    <Menu/>
     <Form/>
+    <Menu/>
+    <Footer/>
     </>
 
 

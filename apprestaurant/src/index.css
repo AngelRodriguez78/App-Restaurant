@@ -8,3 +8,8 @@
   font-family: 'Roboto Mono', monospace;
 }
 
+.container h1{
+  display: flex;
+  text-align: center;
+  color: antiquewhite;
+}

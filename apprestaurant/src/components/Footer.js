@@ -2,7 +2,9 @@ import React from "react";
 
 const Footer =({Pie}) =>{
 return(
-    <div>{Pie}</div>
+    <div>{Pie}
+    <p>Copyright ©2023 Kani Code Developer</p>
+    </div>
 )
 
 }

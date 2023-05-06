@@ -6,17 +6,28 @@ body {
     display: grid;
     place-items: center;
     font-family: 'Roboto Mono', monospace;
-    font-size: 1rem;
+
 }
 
 
 
 .container {
     display: flex;
-    font-size: 4rem;
     font-family: 'Roboto Mono', monospace;
     color: #F2F2EB;
 }
+
+.container h1{
+    display: flex;
+    text-align: center;
+    color: antiquewhite;
+}
+
+.container p {
+    font-size: 1rem;
+}
+
+
 
 .boton {
     font: inherit;
@@ -26,7 +37,6 @@ body {
     border-radius: 100vw;
     cursor: pointer;
     transition: background-color 250ms;
-
     position: relative;
     isolation: isolate;
     overflow: hidden;

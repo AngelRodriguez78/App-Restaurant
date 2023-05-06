@@ -6,11 +6,12 @@ const Menu = () => {
     return (
         <div className='container'>
             <body>
-            <p>Numero de Personas</p>
+            <p>Numero de Personas = </p>{state}
+            <br/>
             <button className='boton' onClick={() => setState(state + 1)}><span></span>
                 Agregar Persona +1
                 <span></span></button>
-            {state}
+            
             </body>
         </div>
     )

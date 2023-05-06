@@ -17,11 +17,7 @@ body {
     color: #F2F2EB;
 }
 
-.container h1{
-    display: flex;
-    text-align: center;
-    color: antiquewhite;
-}
+
 
 .container p {
     font-size: 1rem;
